@@ -9,6 +9,7 @@ import java.util.Date;
 
 @Slf4j
 @RestController
+@RequestMapping("/rest")
 public class ArticleController {
 
     //根据ID查询一篇文章
