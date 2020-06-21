@@ -2,10 +2,13 @@ package com.kimgao.bootlauch.controller;
 
 import com.kimgao.bootlauch.AjaxResponse;
 import com.kimgao.bootlauch.model.Article;
+import com.kimgao.bootlauch.model.Reader;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Slf4j
 @RestController
@@ -17,11 +20,19 @@ public class ArticleController {
     //mapping 可以用下面的写法简写，省去RequestMethod
     @GetMapping("/articles/{id}")
     public AjaxResponse getArticle(@PathVariable("id") Long id) {
+
+        List<Reader> readers = new ArrayList<Reader>(){{
+            add(new Reader("kobe",21));
+            add(new Reader("kimgao",32));
+
+        }};
+
         Article article = Article.builder()
                 .id(1L)
-                .name("kimgao")
+                .author("kimgao")
                 .content("青铜")
                 .createTime(new Date())
+                .reader(readers)
                 .title("T1")
                 .build();
         log.info("articel:"+article);
