@@ -46,7 +46,7 @@ public class ArticleController {
 
         //因为使用了lombok的Slf4j注解，这里可以直接使用log变量打印日志
         log.info("saveArticle:" + article);
-        return AjaxResponse.success();
+        return AjaxResponse.success(article);
     }
 
     //增加一篇Article ，使用POST方法(RequestParam方式接收参数)

@@ -36,7 +36,7 @@ public class JacksonTest {
         String jsonStr = mapper.writeValueAsString(article);
         System.out.println(jsonStr);
         //将JSON字符串转换为Java对象
-        Article article1 = mapper.readValue("{\"content\":\"青铜\",\"title\":\"T1\",\"createTime\":\"2020/06/21 23:31:57\",\"reader\":[{\"name\":\"kobe\",\"age\":21},{\"name\":\"kimgao\",\"age\":32}],\"auther\":\"kimgao\"}"
+        Article article1 = mapper.readValue("{\"content\":\"青铜\",\"title\":\"T1\",\"createTime\":\"2020/06/21 23:31:57\",\"reader\":[{\"name\":\"kobe\",\"age\":21},{\"name\":\"kimgao\",\"age\":32}],\"author\":\"kimgao\"}"
         ,Article.class);
         System.out.println(article1);
     }
