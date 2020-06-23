@@ -3,9 +3,11 @@ package com.kimgao.bootlauch.controller;
 import com.kimgao.bootlauch.AjaxResponse;
 import com.kimgao.bootlauch.model.Article;
 import com.kimgao.bootlauch.model.Reader;
+import com.kimgao.bootlauch.service.ArticleService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -14,7 +16,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/rest")
 public class ArticleController {
-
+    @Resource
+    ArticleService articleService;
     //根据ID查询一篇文章
     //@RequestMapping(value = "/articles/{id}",method = RequestMethod.GET)
     //mapping 可以用下面的写法简写，省去RequestMethod
@@ -46,7 +49,7 @@ public class ArticleController {
 
         //因为使用了lombok的Slf4j注解，这里可以直接使用log变量打印日志
         log.info("saveArticle:" + article);
-        return AjaxResponse.success(article);
+        return AjaxResponse.success(articleService.saveArticle(article));
     }
 
     //增加一篇Article ，使用POST方法(RequestParam方式接收参数)

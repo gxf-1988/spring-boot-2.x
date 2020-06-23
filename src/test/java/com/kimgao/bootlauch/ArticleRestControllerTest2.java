@@ -63,8 +63,8 @@ class ArticleRestControllerTest2 {
                         .contentType("application/json")
                         .accept(MediaType.APPLICATION_JSON_UTF8)
                         .content(article))
-                .andExpect(MockMvcResultMatchers.jsonPath("$.data.author").value("zimug"))
-                //.andExpect(MockMvcResultMatchers.jsonPath("$.data").value("ok"))
+                //.andExpect(MockMvcResultMatchers.jsonPath("$.data.author").value("zimug"))
+                .andExpect(MockMvcResultMatchers.jsonPath("$.data").value("ok"))
                 .andDo(print())
                 .andReturn();
 

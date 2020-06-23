@@ -29,6 +29,7 @@ class ArticleRestControllerTest1 {
     @Resource
     private  MockMvc mockMvc;
 
+
     //在所有测试方法执行之前进行mock对象初始化
     /*@BeforeAll
     static void setUp() {
