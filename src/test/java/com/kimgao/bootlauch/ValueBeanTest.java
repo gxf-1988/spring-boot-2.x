@@ -1,6 +1,7 @@
 package com.kimgao.bootlauch;
 
 
+import com.kimgao.bootlauch.model.Employee;
 import com.kimgao.bootlauch.model.Family;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -19,8 +20,16 @@ public class ValueBeanTest {
     @Resource
     Family family;
 
+    @Resource
+    Employee employee;
+
     @Test
     public void valueBeanTest() throws Exception{
         System.out.println(family.toString());
+    }
+
+    @Test
+    public void valueBeanTest2() throws Exception{
+        System.out.println(employee.toString());
     }
 }
