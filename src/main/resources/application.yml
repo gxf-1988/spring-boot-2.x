@@ -17,7 +17,7 @@ family:
   family-name: "happy family"
   father:
     name: zimug
-    age: ${random.int}
+    age: 18 #${random.int}
   mother:
     alias:
       - lovely
