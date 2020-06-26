@@ -1,12 +1,14 @@
 package com.kimgao.bootlauch;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.kimgao.bootlauch.controller.ArticleController;
 import com.kimgao.bootlauch.model.Article;
 import com.kimgao.bootlauch.service.ArticleService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.HttpMethod;
@@ -25,6 +27,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 @Slf4j
 @AutoConfigureMockMvc
 @SpringBootTest
+//@WebMvcTest(ArticleController.class)
 @ExtendWith(SpringExtension.class)
 class ArticleRestControllerTest2 {
 
