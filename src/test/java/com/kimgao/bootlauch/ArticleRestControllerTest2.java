@@ -56,7 +56,7 @@ class ArticleRestControllerTest2 {
         log.info("articleObj:"+articleObj);
 
         //打桩
-        when(articleService.saveArticle(articleObj)).thenReturn("ok");
+        //when(articleService.saveArticle(articleObj)).thenReturn("ok");
 
         MvcResult result = mockMvc.perform(
                 MockMvcRequestBuilders.request(HttpMethod.POST, "/rest/articles")
