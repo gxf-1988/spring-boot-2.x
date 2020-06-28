@@ -1,8 +1,10 @@
 package com.kimgao.bootlauch;
 
+import io.swagger.annotations.ApiModel;
 import lombok.Data;
 
 @Data
+@ApiModel
 public class AjaxResponse {
     private boolean isok;  //请求是否处理成功
     private int code; //200、400、500

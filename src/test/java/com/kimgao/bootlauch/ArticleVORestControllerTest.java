@@ -15,7 +15,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 
 @Slf4j
-public class ArticleRestControllerTest {
+public class ArticleVORestControllerTest {
     //Mock对象
     private static MockMvc mockMvc;
 
