@@ -2,7 +2,7 @@ package com.kimgao.bootlauch;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.kimgao.bootlauch.model.Article;
+import com.kimgao.bootlauch.model.ArticleVO;
 import com.kimgao.bootlauch.model.Reader;
 import org.junit.jupiter.api.Test;
 
@@ -23,7 +23,7 @@ public class JacksonTest {
 
         }};
 
-        Article article = Article.builder()
+        ArticleVO article = ArticleVO.builder()
                 .id(1L)
                 .author("kimgao")
                 .content("青铜")
@@ -36,8 +36,8 @@ public class JacksonTest {
         String jsonStr = mapper.writeValueAsString(article);
         System.out.println(jsonStr);
         //将JSON字符串转换为Java对象
-        Article article1 = mapper.readValue("{\"content\":\"青铜\",\"title\":\"T1\",\"createTime\":\"2020/06/21 23:31:57\",\"reader\":[{\"name\":\"kobe\",\"age\":21},{\"name\":\"kimgao\",\"age\":32}],\"author\":\"kimgao\"}"
-        ,Article.class);
+        ArticleVO article1 = mapper.readValue("{\"content\":\"青铜\",\"title\":\"T1\",\"createTime\":\"2020/06/21 23:31:57\",\"reader\":[{\"name\":\"kobe\",\"age\":21},{\"name\":\"kimgao\",\"age\":32}],\"author\":\"kimgao\"}"
+        , ArticleVO.class);
         System.out.println(article1);
     }
 
