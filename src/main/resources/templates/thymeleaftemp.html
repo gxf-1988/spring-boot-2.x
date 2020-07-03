@@ -20,7 +20,44 @@
         <td th:text="${item.content}"></td>
     </tr>
 </table>
+<table class="">
+    <tr>
+        <td>下标</td>
+        <td>序号</td>
+        <td>作者</td>
+        <td>教程名称</td>
+        <td>内容</td>
+    </tr>
+    <!-- 用thymeleaf语法遍历articles列表-->
+    <div th:if="${articles}">
+        <div>的确存在..</div>
+        <tr th:each="item,stat : ${articles}" th:style="${stat.even}?'background-color:blue':'background-color:red'">
+            <div th:if="${stat.index == 0}">
+                <td th:text="${stat.index}"></td>
+            </div>
+            <td th:text="${stat.count}"></td>
+            <td th:text="${item.author}"></td>
+            <td th:text="${item.title}"></td>
+            <td th:text="${item.content}"></td>
+        </tr>
+    </div>
+</table>
 
-<img src="/image/template.png">
+
+<section>第二段</section>
+
+<form id="userForm">
+    <input id="id" name="id" th:value="${user.id}"/>
+    <input id="username" name="username" th:value="${user.username}"/>
+    <input id="password" name="password" th:value="${user.password}"/>
+    <input name="name" th:value="${'I am '+(user.username!=null?user.username:'NoBody')}"/>
+
+</form>
+
+<div th:text="hello"></div>
+
+<div th:text="${articles[0].author}"></div>
+
+<img th:src="@{/image/template.png}">
 </body>
 </html>
