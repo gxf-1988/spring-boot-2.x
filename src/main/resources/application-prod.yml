@@ -12,6 +12,13 @@ spring:
     password: root
     driver-class-name: com.mysql.jdbc.Driver
 
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+
+debug: true
+
 #mybatis:
 #  mapper-locations: classpath:generator/*.xml
 logging:
