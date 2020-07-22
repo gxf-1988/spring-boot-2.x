@@ -20,6 +20,9 @@
         <td th:text="${item.content}"></td>
     </tr>
 </table>
+
+<section>第二段 迭代循环和条件判断</section>
+
 <table class="">
     <tr>
         <td>下标</td>
@@ -44,7 +47,7 @@
 </table>
 
 
-<section>第二段</section>
+
 
 <form id="userForm">
     <input id="id" name="id" th:value="${user.id}"/>
@@ -59,5 +62,30 @@
 <div th:text="${articles[0].author}"></div>
 
 <img th:src="@{/image/template.png}">
+
+<section>第三段 内置对象与工具类</section>
+<div th:text="${#locale.getLanguage() + '_' + #locale.getCountry()}"></div>
+
+<div th:text="${session.foo}?:('zoo')"></div>
+<div th:text="${session.size()}"></div>
+<div th:text="${session.isEmpty()}"></div>
+<div th:text="${session.containsKey('foo')}"></div>
+
+
+<table class="">
+    <tr>
+        <td>作者</td>
+        <td>教程名称</td>
+        <td>内容</td>
+        <td>日期1</td>
+    </tr>
+    <!-- 用thymeleaf语法遍历articles列表-->
+    <tr th:each="item : ${articles}">
+        <td th:text="${#strings.capitalizeWords(item.author)}"></td>
+        <td th:text="${item.title}"></td>
+        <td th:text="${item.content}"></td>
+        <td th:text="${#dates.format(item.createTime,'yyyy-MM-dd HH:mm:ss')}"></td>
+    </tr>
+</table>
 </body>
 </html>
