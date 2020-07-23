@@ -30,7 +30,9 @@ public class Swagger2 {
                 .select()
                 //扫描basePackage包下面的“/rest/”路径下的内容作为接口文档构建的目标
                 .apis(RequestHandlerSelectors.basePackage("com.kimgao.bootlauch"))
-                .paths(PathSelectors.regex("/rest/.*"))
+                //.paths(PathSelectors.regex("/rest/.*"))
+                //包下全部API用any
+                .paths(PathSelectors.any())
                 .build();
     }
 
