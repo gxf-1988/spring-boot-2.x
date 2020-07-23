@@ -87,5 +87,22 @@
         <td th:text="${#dates.format(item.createTime,'yyyy-MM-dd HH:mm:ss')}"></td>
     </tr>
 </table>
+
+<section>第四段 公共片段(标签)和内联JS</section>
+
+<div th:replace="~{common/Form::userForm(${user})}"></div>
+<div th:insert="~{common/Form::userForm(${user})}"></div>
+
+
+<script th:inline="javascript">
+    var user = [[${user}]];
+    var APP_PATH = [[${#request.getContextPath()}]];
+    var LANG_COUNTRY = [[${#locale.getLanguage()+'_'+#locale.getCountry()}]];
+
+    console.log(user.password);
+    console.log(APP_PATH);
+    console.log(LANG_COUNTRY);
+
+</script>
 </body>
 </html>
