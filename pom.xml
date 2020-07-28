@@ -10,6 +10,7 @@
     </parent>
     <groupId>com.kimgao</groupId>
     <artifactId>boot-lauch</artifactId>
+    <packaging>war</packaging>
     <version>1.0</version>
     <name>boot-lauch</name>
     <description>Spring Boot 基础篇</description>
@@ -31,9 +32,15 @@
         </dependency>
 
         <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+
+        <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-undertow</artifactId>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -114,6 +121,7 @@
     </dependencies>
 
     <build>
+        <finalName>boot-lauch</finalName>
         <resources>
             <resource>
                 <directory>src/main/java</directory>

@@ -33,7 +33,7 @@ public class ArticleMybatisRestServiceImpl implements ArticleRestService{
     //删除
     @Override
     public void deleteArticle(Long id) {
-        articleMapper.deleteByPrimaryKey(id);
+        articleMapper.deleteByPrimaryKey(id.intValue());
     }
 
     //更新
@@ -47,7 +47,7 @@ public class ArticleMybatisRestServiceImpl implements ArticleRestService{
     @Override
     public ArticleVO getArticle(Long id) {
         log.info("get id"+id);
-        return dozerMapper.map(articleMapper.selectByPrimaryKey(id),ArticleVO.class);
+        return dozerMapper.map(articleMapper.selectByPrimaryKey(id.intValue()),ArticleVO.class);
     }
     //查询所有
     @Override
