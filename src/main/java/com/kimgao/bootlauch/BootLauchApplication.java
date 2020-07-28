@@ -1,10 +1,12 @@
 package com.kimgao.bootlauch;
 
+import com.kimgao.bootlauch.customlistener.MyListener1;
 import com.kimgao.bootlauch.model.LombokPOJO;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 @MapperScan(basePackages = {"com.kimgao.bootlauch.generator"})
@@ -18,7 +20,9 @@ public class BootLauchApplication {
                 .age(32)
                 .build();
 
-        SpringApplication.run(BootLauchApplication.class, args);
+        ConfigurableApplicationContext context = SpringApplication.run(BootLauchApplication.class, args);
+        //装载监听
+        context.addApplicationListener(new MyListener1());
     }
 
 }

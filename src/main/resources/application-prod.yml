@@ -24,6 +24,10 @@ spring:
     prefix: classpath:/templates/ # 模版存放路径
     suffix: .html # 模版后缀
 
+context:
+  listener:
+    classes: com.kimgao.bootlauch.customlistener.MyListener3
+
 #mybatis:
 #  mapper-locations: classpath:generator/*.xml
 logging:
