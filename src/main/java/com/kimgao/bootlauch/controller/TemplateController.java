@@ -1,7 +1,9 @@
 package com.kimgao.bootlauch.controller;
 
+import com.kimgao.bootlauch.config.exception.ModelView;
 import com.kimgao.bootlauch.model.ArticleVO;
 import com.kimgao.bootlauch.service.ArticleRestService;
+import com.kimgao.bootlauch.service.ExceptionService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,12 +22,18 @@ public class TemplateController {
     @Resource(name="articleMybatisRestServiceImpl")
     ArticleRestService articleRestService;
 
+    @Resource
+    ExceptionService exceptionService;
+
+    @ModelView
     @GetMapping("/thymeleaf")
     public String index(Model model, HttpSession session) {
 
         List<ArticleVO> articles = articleRestService.getAll();
 
         model.addAttribute("articles", articles);
+
+        exceptionService.systemBizError();
 
         Map<String,String> user = new HashMap<>();
         user.put("id","1");
