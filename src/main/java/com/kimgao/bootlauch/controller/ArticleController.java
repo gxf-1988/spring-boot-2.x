@@ -1,6 +1,6 @@
 package com.kimgao.bootlauch.controller;
 
-import com.kimgao.bootlauch.AjaxResponse;
+import com.kimgao.bootlauch.config.exception.AjaxResponse;
 import com.kimgao.bootlauch.model.ArticleVO;
 import com.kimgao.bootlauch.service.ArticleRestService;
 import lombok.extern.slf4j.Slf4j;
@@ -28,7 +28,7 @@ public class ArticleController {
         //因为使用了lombok的Slf4j注解，这里可以直接使用log变量打印日志
         log.info("saveArticle：{}",article);
 
-        return  AjaxResponse.success(article);
+        return  AjaxResponse.success();
     }
 
 
