@@ -1,5 +1,8 @@
 package com.kimgao.bootlauch.config.exception;
 
+import org.springframework.validation.BindException;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -8,7 +11,23 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ControllerAdvice
 public class WebExceptionHandler {
 
-    //异常处理类
+    //
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    @ResponseBody
+    public AjaxResponse handleBindException(MethodArgumentNotValidException ex) {
+        FieldError fieldError = ex.getBindingResult().getFieldError();
+        return AjaxResponse.error(new CustomException(CustomExceptionType.USER_INPUT_ERROR,fieldError.getDefaultMessage()));
+    }
+
+
+    @ExceptionHandler(BindException.class)
+    @ResponseBody
+    public AjaxResponse handleBindException(BindException ex) {
+        FieldError fieldError = ex.getBindingResult().getFieldError();
+        return AjaxResponse.error(new CustomException(CustomExceptionType.USER_INPUT_ERROR,fieldError.getDefaultMessage()));
+    }
+
+    //异常处理类，已知异常的处理
     @ExceptionHandler(CustomException.class)
     @ResponseBody
     public AjaxResponse customerException(CustomException e) {

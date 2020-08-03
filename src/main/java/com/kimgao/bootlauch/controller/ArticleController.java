@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.validation.Valid;
 
 
 @Slf4j
@@ -47,7 +48,7 @@ public class ArticleController {
     //更新一篇Article，使用PUT方法，以id为主键进行更新
     //@RequestMapping(value = "/article/{id}", method = PUT, produces = "application/json")
     @PutMapping("/articles/{id}")
-    public @ResponseBody AjaxResponse updateArticle(@PathVariable Long id, @RequestBody ArticleVO article) {
+    public @ResponseBody AjaxResponse updateArticle(@PathVariable Long id, @Valid @RequestBody ArticleVO article) {
         article.setId(id);
         articleRestService.updateArticle(article);
         return AjaxResponse.success(article);
