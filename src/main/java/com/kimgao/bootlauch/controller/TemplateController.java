@@ -33,7 +33,7 @@ public class TemplateController {
 
         model.addAttribute("articles", articles);
 
-        exceptionService.systemBizError();
+        //exceptionService.systemBizError();
 
         Map<String,String> user = new HashMap<>();
         user.put("id","1");
