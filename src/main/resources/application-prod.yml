@@ -30,6 +30,10 @@ context:
 
 #mybatis:
 #  mapper-locations: classpath:generator/*.xml
+
+#logging:
+#  level:
+#    com.kimgao.bootlauch: debug
+
 logging:
-  level:
-    com.kimgao.bootlauch: debug
+  config: classpath:log4j2-prod.xml
