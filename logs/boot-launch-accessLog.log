@@ -1,0 +1,1 @@
+2020-08-05 12:00:47.958 +0800	INFO	com.kimgao.bootlauch.config.accesslog.AccessLogInterceptor	73	http-nio-8899-exec-1	AccessLog(username=admin, url=/kimgao/hello, duration=32, httpMethod=GET, httpStatus=200, ip=127.0.0.1, createTime=Wed Aug 05 12:00:47 CST 2020)
