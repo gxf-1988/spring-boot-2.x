@@ -422,3 +422,30 @@
 2020-08-05 16:23:08.230 +0800	INFO	com.kimgao.bootlauch.runner.AppStartupRunner	14	main	ApplicationRunner参数: {}
 2020-08-05 16:23:08.230 +0800	INFO	com.kimgao.bootlauch.runner.CommandLineStartupRunner	14	main	CommandLineRunner传入参数：[]
 2020-08-05 16:23:16.682 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	218	SpringContextShutdownHook	Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:17:17.630 +0800	INFO	org.springframework.boot.StartupInfoLogger	55	main	Starting TaskTest on LAPTOP-07MRMPTP with PID 22692 (started by 12027 in C:\MyJobIsInHere\Job\srping-boot-project\boot-lauch)
+2020-08-05 21:17:17.651 +0800	INFO	org.springframework.boot.SpringApplication	655	main	The following profiles are active: prod
+2020-08-05 21:17:20.506 +0800	INFO	org.dozer.config.GlobalSettings	113	main	Trying to find Dozer configuration file: dozer.properties
+2020-08-05 21:17:20.520 +0800	WARN	org.dozer.config.GlobalSettings	118	main	Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-08-05 21:17:20.526 +0800	INFO	org.dozer.DozerInitializer	70	main	Initializing Dozer. Version: 5.4.0, Thread Name: main
+2020-08-05 21:17:20.531 +0800	INFO	org.dozer.jmx.JMXPlatformImpl	66	main	Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-08-05 21:17:20.534 +0800	INFO	org.dozer.jmx.JMXPlatformImpl	66	main	Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-08-05 21:17:20.547 +0800	INFO	org.dozer.DozerBeanMapper	175	main	Initializing a new instance of dozer bean mapper.
+2020-08-05 21:17:22.829 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	181	main	Initializing ExecutorService 'taskExecutor'
+2020-08-05 21:17:23.623 +0800	INFO	org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping	54	main	Adding welcome page: class path resource [public/index.html]
+2020-08-05 21:17:24.915 +0800	WARN	org.thymeleaf.templatemode.TemplateMode	150	main	[THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-05 21:17:25.481 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	120	main	Context refreshed
+2020-08-05 21:17:25.541 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	123	main	Found 1 custom documentation plugin(s)
+2020-08-05 21:17:25.568 +0800	INFO	springfox.documentation.spring.web.scanners.ApiListingReferenceScanner	41	main	Scanning for api listing references
+2020-08-05 21:17:25.953 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingGET_1
+2020-08-05 21:17:25.955 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingHEAD_1
+2020-08-05 21:17:25.958 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingPOST_1
+2020-08-05 21:17:25.960 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingPUT_1
+2020-08-05 21:17:25.962 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingPATCH_1
+2020-08-05 21:17:25.964 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingDELETE_1
+2020-08-05 21:17:25.966 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingOPTIONS_1
+2020-08-05 21:17:25.968 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingTRACE_1
+2020-08-05 21:17:26.048 +0800	INFO	org.springframework.boot.StartupInfoLogger	61	main	Started TaskTest in 9.487 seconds (JVM running for 11.739)
+2020-08-05 21:17:26.051 +0800	INFO	com.kimgao.bootlauch.runner.AppStartupRunner	13	main	ApplicationRunner参数名称: []
+2020-08-05 21:17:26.052 +0800	INFO	com.kimgao.bootlauch.runner.AppStartupRunner	14	main	ApplicationRunner参数: {}
+2020-08-05 21:17:26.052 +0800	INFO	com.kimgao.bootlauch.runner.CommandLineStartupRunner	14	main	CommandLineRunner传入参数：[]
+2020-08-05 21:17:36.518 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	218	SpringContextShutdownHook	Shutting down ExecutorService 'taskExecutor'
