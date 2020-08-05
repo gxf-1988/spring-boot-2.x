@@ -8,11 +8,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.scheduling.annotation.EnableAsync;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @MapperScan(basePackages = {"com.kimgao.bootlauch.generator"})
 @ServletComponentScan
 @EnableAsync
+@EnableScheduling
 public class BootLauchApplication {
 
     public static void main(String[] args) {

@@ -449,3 +449,162 @@
 2020-08-05 21:17:26.052 +0800	INFO	com.kimgao.bootlauch.runner.AppStartupRunner	14	main	ApplicationRunner参数: {}
 2020-08-05 21:17:26.052 +0800	INFO	com.kimgao.bootlauch.runner.CommandLineStartupRunner	14	main	CommandLineRunner传入参数：[]
 2020-08-05 21:17:36.518 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	218	SpringContextShutdownHook	Shutting down ExecutorService 'taskExecutor'
+2020-08-05 22:23:26.906 +0800	INFO	org.springframework.boot.StartupInfoLogger	55	main	Starting TaskTest on LAPTOP-07MRMPTP with PID 888 (started by 12027 in C:\MyJobIsInHere\Job\srping-boot-project\boot-lauch)
+2020-08-05 22:23:26.950 +0800	INFO	org.springframework.boot.SpringApplication	655	main	The following profiles are active: prod
+2020-08-05 22:23:30.058 +0800	INFO	org.dozer.config.GlobalSettings	113	main	Trying to find Dozer configuration file: dozer.properties
+2020-08-05 22:23:30.069 +0800	WARN	org.dozer.config.GlobalSettings	118	main	Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-08-05 22:23:30.073 +0800	INFO	org.dozer.DozerInitializer	70	main	Initializing Dozer. Version: 5.4.0, Thread Name: main
+2020-08-05 22:23:30.076 +0800	INFO	org.dozer.jmx.JMXPlatformImpl	66	main	Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-08-05 22:23:30.080 +0800	INFO	org.dozer.jmx.JMXPlatformImpl	66	main	Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-08-05 22:23:30.089 +0800	INFO	org.dozer.DozerBeanMapper	175	main	Initializing a new instance of dozer bean mapper.
+2020-08-05 22:23:32.163 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	181	main	Initializing ExecutorService 'taskExecutor'
+2020-08-05 22:23:32.961 +0800	INFO	org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping	54	main	Adding welcome page: class path resource [public/index.html]
+2020-08-05 22:23:34.524 +0800	WARN	org.thymeleaf.templatemode.TemplateMode	150	main	[THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-05 22:23:34.870 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	181	main	Initializing ExecutorService 'taskScheduler'
+2020-08-05 22:23:35.025 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	120	main	Context refreshed
+2020-08-05 22:23:35.077 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	123	main	Found 1 custom documentation plugin(s)
+2020-08-05 22:23:35.106 +0800	INFO	springfox.documentation.spring.web.scanners.ApiListingReferenceScanner	41	main	Scanning for api listing references
+2020-08-05 22:23:35.564 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingGET_1
+2020-08-05 22:23:35.566 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingHEAD_1
+2020-08-05 22:23:35.568 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingPOST_1
+2020-08-05 22:23:35.571 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingPUT_1
+2020-08-05 22:23:35.573 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingPATCH_1
+2020-08-05 22:23:35.575 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingDELETE_1
+2020-08-05 22:23:35.577 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingOPTIONS_1
+2020-08-05 22:23:35.580 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	main	Generating unique operation named: helloUsingTRACE_1
+2020-08-05 22:23:35.673 +0800	INFO	org.springframework.boot.StartupInfoLogger	61	main	Started TaskTest in 9.83 seconds (JVM running for 12.542)
+2020-08-05 22:23:35.677 +0800	INFO	com.kimgao.bootlauch.runner.AppStartupRunner	13	main	ApplicationRunner参数名称: []
+2020-08-05 22:23:35.678 +0800	INFO	com.kimgao.bootlauch.runner.AppStartupRunner	14	main	ApplicationRunner参数: {}
+2020-08-05 22:23:35.678 +0800	INFO	com.kimgao.bootlauch.runner.CommandLineStartupRunner	14	main	CommandLineRunner传入参数：[]
+2020-08-05 22:23:44.228 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	218	SpringContextShutdownHook	Shutting down ExecutorService 'taskScheduler'
+2020-08-05 22:23:44.230 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	218	SpringContextShutdownHook	Shutting down ExecutorService 'taskExecutor'
+2020-08-05 22:24:01.592 +0800	INFO	org.springframework.boot.StartupInfoLogger	55	restartedMain	Starting BootLauchApplication on LAPTOP-07MRMPTP with PID 26408 (C:\MyJobIsInHere\Job\srping-boot-project\boot-lauch\target\classes started by 12027 in C:\MyJobIsInHere\Job\srping-boot-project\boot-lauch)
+2020-08-05 22:24:01.608 +0800	INFO	org.springframework.boot.SpringApplication	655	restartedMain	The following profiles are active: prod
+2020-08-05 22:24:01.704 +0800	INFO	org.springframework.boot.logging.DeferredLog	225	restartedMain	Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-05 22:24:01.704 +0800	INFO	org.springframework.boot.logging.DeferredLog	225	restartedMain	For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-05 22:24:04.360 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	108	restartedMain	Tomcat initialized with port(s): 8899 (http)
+2020-08-05 22:24:04.374 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing ProtocolHandler ["http-nio-8899"]
+2020-08-05 22:24:04.376 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting service [Tomcat]
+2020-08-05 22:24:04.377 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-05 22:24:04.523 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing Spring embedded WebApplicationContext
+2020-08-05 22:24:04.523 +0800	INFO	org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext	285	restartedMain	Root WebApplicationContext: initialization completed in 2818 ms
+2020-08-05 22:24:04.645 +0800	INFO	com.kimgao.bootlauch.config.CustomFilter	16	restartedMain	filter 初始化
+2020-08-05 22:24:04.645 +0800	INFO	com.kimgao.bootlauch.config.CustomFilter2	16	restartedMain	filter2 初始化
+2020-08-05 22:24:04.724 +0800	INFO	org.dozer.config.GlobalSettings	113	restartedMain	Trying to find Dozer configuration file: dozer.properties
+2020-08-05 22:24:04.732 +0800	WARN	org.dozer.config.GlobalSettings	118	restartedMain	Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-08-05 22:24:04.734 +0800	INFO	org.dozer.DozerInitializer	70	restartedMain	Initializing Dozer. Version: 5.4.0, Thread Name: restartedMain
+2020-08-05 22:24:04.737 +0800	INFO	org.dozer.jmx.JMXPlatformImpl	66	restartedMain	Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-08-05 22:24:04.739 +0800	INFO	org.dozer.jmx.JMXPlatformImpl	66	restartedMain	Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-08-05 22:24:04.743 +0800	INFO	org.dozer.DozerBeanMapper	175	restartedMain	Initializing a new instance of dozer bean mapper.
+2020-08-05 22:24:05.459 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	181	restartedMain	Initializing ExecutorService 'taskExecutor'
+2020-08-05 22:24:05.672 +0800	INFO	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	58	restartedMain	LiveReload server is running on port 35729
+2020-08-05 22:24:05.709 +0800	INFO	org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping	54	restartedMain	Adding welcome page: class path resource [public/index.html]
+2020-08-05 22:24:06.144 +0800	WARN	org.thymeleaf.templatemode.TemplateMode	150	restartedMain	[THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-05 22:24:06.222 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	181	restartedMain	Initializing ExecutorService 'taskScheduler'
+2020-08-05 22:24:06.314 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting ProtocolHandler ["http-nio-8899"]
+2020-08-05 22:24:06.341 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	220	restartedMain	Tomcat started on port(s): 8899 (http) with context path '/kimgao'
+2020-08-05 22:24:06.343 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	120	restartedMain	Context refreshed
+2020-08-05 22:24:06.372 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	123	restartedMain	Found 1 custom documentation plugin(s)
+2020-08-05 22:24:06.388 +0800	INFO	springfox.documentation.spring.web.scanners.ApiListingReferenceScanner	41	restartedMain	Scanning for api listing references
+2020-08-05 22:24:06.589 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingGET_1
+2020-08-05 22:24:06.590 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingHEAD_1
+2020-08-05 22:24:06.592 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingPOST_1
+2020-08-05 22:24:06.593 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingPUT_1
+2020-08-05 22:24:06.594 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingPATCH_1
+2020-08-05 22:24:06.596 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingDELETE_1
+2020-08-05 22:24:06.598 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingOPTIONS_1
+2020-08-05 22:24:06.599 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingTRACE_1
+2020-08-05 22:24:06.644 +0800	INFO	org.springframework.boot.StartupInfoLogger	61	restartedMain	Started BootLauchApplication in 6.105 seconds (JVM running for 8.875)
+2020-08-05 22:24:06.646 +0800	INFO	com.kimgao.bootlauch.runner.AppStartupRunner	13	restartedMain	ApplicationRunner参数名称: [name, age]
+2020-08-05 22:24:06.647 +0800	INFO	com.kimgao.bootlauch.runner.AppStartupRunner	14	restartedMain	ApplicationRunner参数: --name=kimgao
+2020-08-05 22:24:06.647 +0800	INFO	com.kimgao.bootlauch.runner.CommandLineStartupRunner	14	restartedMain	CommandLineRunner传入参数：[--name=kimgao, --age=12]
+2020-08-05 22:24:48.366 +0800	INFO	com.kimgao.bootlauch.config.CustomFilter	36	SpringContextShutdownHook	filter 销毁
+2020-08-05 22:24:48.366 +0800	INFO	com.kimgao.bootlauch.config.CustomFilter2	36	SpringContextShutdownHook	filter 销毁
+2020-08-05 22:24:48.382 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	218	SpringContextShutdownHook	Shutting down ExecutorService 'taskScheduler'
+2020-08-05 22:24:48.384 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	218	SpringContextShutdownHook	Shutting down ExecutorService 'taskExecutor'
+2020-08-05 22:30:57.298 +0800	INFO	org.springframework.boot.StartupInfoLogger	55	restartedMain	Starting BootLauchApplication on LAPTOP-07MRMPTP with PID 4860 (C:\MyJobIsInHere\Job\srping-boot-project\boot-lauch\target\classes started by 12027 in C:\MyJobIsInHere\Job\srping-boot-project\boot-lauch)
+2020-08-05 22:30:57.313 +0800	INFO	org.springframework.boot.SpringApplication	655	restartedMain	The following profiles are active: prod
+2020-08-05 22:30:57.419 +0800	INFO	org.springframework.boot.logging.DeferredLog	225	restartedMain	Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-05 22:30:57.419 +0800	INFO	org.springframework.boot.logging.DeferredLog	225	restartedMain	For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-05 22:31:00.760 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	108	restartedMain	Tomcat initialized with port(s): 8899 (http)
+2020-08-05 22:31:00.770 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing ProtocolHandler ["http-nio-8899"]
+2020-08-05 22:31:00.771 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting service [Tomcat]
+2020-08-05 22:31:00.771 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-05 22:31:00.878 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing Spring embedded WebApplicationContext
+2020-08-05 22:31:00.878 +0800	INFO	org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext	285	restartedMain	Root WebApplicationContext: initialization completed in 3458 ms
+2020-08-05 22:31:00.965 +0800	INFO	com.kimgao.bootlauch.config.CustomFilter	16	restartedMain	filter 初始化
+2020-08-05 22:31:00.966 +0800	INFO	com.kimgao.bootlauch.config.CustomFilter2	16	restartedMain	filter2 初始化
+2020-08-05 22:31:01.036 +0800	INFO	org.dozer.config.GlobalSettings	113	restartedMain	Trying to find Dozer configuration file: dozer.properties
+2020-08-05 22:31:01.046 +0800	WARN	org.dozer.config.GlobalSettings	118	restartedMain	Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-08-05 22:31:01.048 +0800	INFO	org.dozer.DozerInitializer	70	restartedMain	Initializing Dozer. Version: 5.4.0, Thread Name: restartedMain
+2020-08-05 22:31:01.051 +0800	INFO	org.dozer.jmx.JMXPlatformImpl	66	restartedMain	Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-08-05 22:31:01.052 +0800	INFO	org.dozer.jmx.JMXPlatformImpl	66	restartedMain	Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-08-05 22:31:01.056 +0800	INFO	org.dozer.DozerBeanMapper	175	restartedMain	Initializing a new instance of dozer bean mapper.
+2020-08-05 22:31:01.690 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	181	restartedMain	Initializing ExecutorService 'taskExecutor'
+2020-08-05 22:31:01.896 +0800	INFO	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	58	restartedMain	LiveReload server is running on port 35729
+2020-08-05 22:31:01.940 +0800	INFO	org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping	54	restartedMain	Adding welcome page: class path resource [public/index.html]
+2020-08-05 22:31:02.383 +0800	WARN	org.thymeleaf.templatemode.TemplateMode	150	restartedMain	[THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-05 22:31:02.467 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	181	restartedMain	Initializing ExecutorService 'taskScheduler'
+2020-08-05 22:31:02.562 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting ProtocolHandler ["http-nio-8899"]
+2020-08-05 22:31:02.594 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	220	restartedMain	Tomcat started on port(s): 8899 (http) with context path '/kimgao'
+2020-08-05 22:31:02.597 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	120	restartedMain	Context refreshed
+2020-08-05 22:31:02.618 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	123	restartedMain	Found 1 custom documentation plugin(s)
+2020-08-05 22:31:02.634 +0800	INFO	springfox.documentation.spring.web.scanners.ApiListingReferenceScanner	41	restartedMain	Scanning for api listing references
+2020-08-05 22:31:02.861 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingGET_1
+2020-08-05 22:31:02.862 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingHEAD_1
+2020-08-05 22:31:02.864 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingPOST_1
+2020-08-05 22:31:02.865 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingPUT_1
+2020-08-05 22:31:02.866 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingPATCH_1
+2020-08-05 22:31:02.867 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingDELETE_1
+2020-08-05 22:31:02.868 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingOPTIONS_1
+2020-08-05 22:31:02.869 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingTRACE_1
+2020-08-05 22:31:02.921 +0800	INFO	org.springframework.boot.StartupInfoLogger	61	restartedMain	Started BootLauchApplication in 6.534 seconds (JVM running for 9.317)
+2020-08-05 22:31:02.923 +0800	INFO	com.kimgao.bootlauch.runner.AppStartupRunner	13	restartedMain	ApplicationRunner参数名称: [name, age]
+2020-08-05 22:31:02.923 +0800	INFO	com.kimgao.bootlauch.runner.AppStartupRunner	14	restartedMain	ApplicationRunner参数: --name=kimgao
+2020-08-05 22:31:02.924 +0800	INFO	com.kimgao.bootlauch.runner.CommandLineStartupRunner	14	restartedMain	CommandLineRunner传入参数：[--name=kimgao, --age=12]
+2020-08-05 22:31:44.970 +0800	INFO	com.kimgao.bootlauch.config.CustomFilter	36	SpringContextShutdownHook	filter 销毁
+2020-08-05 22:31:44.970 +0800	INFO	com.kimgao.bootlauch.config.CustomFilter2	36	SpringContextShutdownHook	filter 销毁
+2020-08-05 22:31:44.983 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	218	SpringContextShutdownHook	Shutting down ExecutorService 'taskScheduler'
+2020-08-05 22:31:44.985 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	218	SpringContextShutdownHook	Shutting down ExecutorService 'taskExecutor'
+2020-08-05 22:39:44.869 +0800	INFO	org.springframework.boot.StartupInfoLogger	55	restartedMain	Starting BootLauchApplication on LAPTOP-07MRMPTP with PID 6588 (C:\MyJobIsInHere\Job\srping-boot-project\boot-lauch\target\classes started by 12027 in C:\MyJobIsInHere\Job\srping-boot-project\boot-lauch)
+2020-08-05 22:39:44.878 +0800	INFO	org.springframework.boot.SpringApplication	655	restartedMain	The following profiles are active: prod
+2020-08-05 22:39:44.940 +0800	INFO	org.springframework.boot.logging.DeferredLog	225	restartedMain	Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-05 22:39:44.941 +0800	INFO	org.springframework.boot.logging.DeferredLog	225	restartedMain	For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-05 22:39:46.714 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	108	restartedMain	Tomcat initialized with port(s): 8899 (http)
+2020-08-05 22:39:46.723 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing ProtocolHandler ["http-nio-8899"]
+2020-08-05 22:39:46.723 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting service [Tomcat]
+2020-08-05 22:39:46.724 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-05 22:39:46.808 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing Spring embedded WebApplicationContext
+2020-08-05 22:39:46.809 +0800	INFO	org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext	285	restartedMain	Root WebApplicationContext: initialization completed in 1868 ms
+2020-08-05 22:39:46.880 +0800	INFO	com.kimgao.bootlauch.config.CustomFilter	16	restartedMain	filter 初始化
+2020-08-05 22:39:46.880 +0800	INFO	com.kimgao.bootlauch.config.CustomFilter2	16	restartedMain	filter2 初始化
+2020-08-05 22:39:46.939 +0800	INFO	org.dozer.config.GlobalSettings	113	restartedMain	Trying to find Dozer configuration file: dozer.properties
+2020-08-05 22:39:46.945 +0800	WARN	org.dozer.config.GlobalSettings	118	restartedMain	Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-08-05 22:39:46.948 +0800	INFO	org.dozer.DozerInitializer	70	restartedMain	Initializing Dozer. Version: 5.4.0, Thread Name: restartedMain
+2020-08-05 22:39:46.951 +0800	INFO	org.dozer.jmx.JMXPlatformImpl	66	restartedMain	Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-08-05 22:39:46.952 +0800	INFO	org.dozer.jmx.JMXPlatformImpl	66	restartedMain	Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-08-05 22:39:46.955 +0800	INFO	org.dozer.DozerBeanMapper	175	restartedMain	Initializing a new instance of dozer bean mapper.
+2020-08-05 22:39:47.565 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	181	restartedMain	Initializing ExecutorService 'taskExecutor'
+2020-08-05 22:39:47.789 +0800	INFO	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	58	restartedMain	LiveReload server is running on port 35729
+2020-08-05 22:39:47.821 +0800	INFO	org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping	54	restartedMain	Adding welcome page: class path resource [public/index.html]
+2020-08-05 22:39:48.169 +0800	WARN	org.thymeleaf.templatemode.TemplateMode	150	restartedMain	[THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-05 22:39:48.293 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting ProtocolHandler ["http-nio-8899"]
+2020-08-05 22:39:48.316 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	220	restartedMain	Tomcat started on port(s): 8899 (http) with context path '/kimgao'
+2020-08-05 22:39:48.318 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	120	restartedMain	Context refreshed
+2020-08-05 22:39:48.333 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	123	restartedMain	Found 1 custom documentation plugin(s)
+2020-08-05 22:39:48.344 +0800	INFO	springfox.documentation.spring.web.scanners.ApiListingReferenceScanner	41	restartedMain	Scanning for api listing references
+2020-08-05 22:39:48.530 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingGET_1
+2020-08-05 22:39:48.531 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingHEAD_1
+2020-08-05 22:39:48.531 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingPOST_1
+2020-08-05 22:39:48.532 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingPUT_1
+2020-08-05 22:39:48.533 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingPATCH_1
+2020-08-05 22:39:48.534 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingDELETE_1
+2020-08-05 22:39:48.535 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingOPTIONS_1
+2020-08-05 22:39:48.535 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: helloUsingTRACE_1
+2020-08-05 22:39:48.576 +0800	INFO	org.springframework.boot.StartupInfoLogger	61	restartedMain	Started BootLauchApplication in 4.399 seconds (JVM running for 6.465)
+2020-08-05 22:39:48.578 +0800	INFO	com.kimgao.bootlauch.runner.AppStartupRunner	13	restartedMain	ApplicationRunner参数名称: [name, age]
+2020-08-05 22:39:48.578 +0800	INFO	com.kimgao.bootlauch.runner.AppStartupRunner	14	restartedMain	ApplicationRunner参数: --name=kimgao
+2020-08-05 22:39:48.578 +0800	INFO	com.kimgao.bootlauch.runner.CommandLineStartupRunner	14	restartedMain	CommandLineRunner传入参数：[--name=kimgao, --age=12]
+2020-08-05 22:40:21.128 +0800	INFO	com.kimgao.bootlauch.config.CustomFilter	36	SpringContextShutdownHook	filter 销毁
+2020-08-05 22:40:21.128 +0800	INFO	com.kimgao.bootlauch.config.CustomFilter2	36	SpringContextShutdownHook	filter 销毁
+2020-08-05 22:40:21.138 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	218	SpringContextShutdownHook	Shutting down ExecutorService 'taskExecutor'
